@@ -23,9 +23,13 @@ several Arabic downstream tasks despite using
 less computational resources compared to
 other BERT-based models.
 
-# Pre-Trained Models ( PyTorch )
+# Pre-Trained Models ( PyTorch + PT + TensorFlow )
 
-- ArabicTransformer (B4-4-4) [Link](https://huggingface.co/sultan/ArabicTransformer-small)
-- ArabicTransformer (B6-6-6) [Link](https://huggingface.co/sultan/ArabicTransformer-intermediate)
+- ArabicTransformer small (B4-4-4) [Link](https://huggingface.co/sultan/ArabicTransformer-small)
+- ArabicTransformer intermediate (B6-6-6) [Link](https://huggingface.co/sultan/ArabicTransformer-intermediate)
+- ArabicTransformer large (B8-8-8) [Link](https://huggingface.co/sultan/ArabicTransformer-large)
+
+# Google Colab Examples
+- Text Classification with ArabicTransformer with PyTorchXLA on TPU or with PyTorch on GPU. [Link](https://github.com/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_with_PyTorchXLA_on_TPU_or_with_PyTorch_on_GPU.ipynb)
 
 We will update you with more examples and more details about our paper (EMNLP21) soon ...
