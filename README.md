@@ -30,6 +30,7 @@ other BERT-based models.
 - ArabicTransformer large (B8-8-8) [Link](https://huggingface.co/sultan/ArabicTransformer-large)
 
 # Google Colab Examples
-- Text Classification with ArabicTransformer with PyTorchXLA on TPU or with PyTorch on GPU. [Link](https://github.com/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_with_PyTorchXLA_on_TPU_or_with_PyTorch_on_GPU.ipynb)
-
+- Text Classification with ArabicTransformer with PyTorchXLA on TPU or with PyTorch on GPU (Better reproductivity but slower). [Link](https://github.com/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_with_PyTorchXLA_on_TPU_or_with_PyTorch_on_GPU.ipynb) 
+- Text Classification with ArabicTransformer and TPU and Keras API (Faster but reproductivity is not better than PyTorchXLA). [Link](https://github.com/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_and_TPU_and_Keras_API.ipynb) 
+# 
 We will update you with more examples and more details about our paper (EMNLP21) soon ...
