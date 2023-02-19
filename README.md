@@ -30,8 +30,15 @@ other BERT-based models.
 - ArabicTransformer large (B8-8-8) [Link](https://huggingface.co/sultan/ArabicTransformer-large)
 
 # Google Colab Examples
-- Text Classification with ArabicTransformer with PyTorchXLA on TPU or with PyTorch on GPU (Better reproducibility but slower). [![Open In Colab][COLAB]](https://colab.research.google.com/github/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_with_PyTorchXLA_on_TPU_or_with_PyTorch_on_GPU.ipynb) 
-- Text Classification with ArabicTransformer and TPU and Keras API (Faster but reproducibility is not better than PyTorchXLA). [![Open In Colab][COLAB]](https://colab.research.google.com/github/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_and_TPU_and_Keras_API.ipynb) 
+- Text Classification with ArabicTransformer with PyTorchXLA on TPU or with PyTorch on GPU (Better reproducibility but slower). 
+
+[![Open In Colab][COLAB]](https://colab.research.google.com/github/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_with_PyTorchXLA_on_TPU_or_with_PyTorch_on_GPU.ipynb) 
+- Text Classification with ArabicTransformer and TPU and Keras API (Faster but reproducibility is not better than PyTorchXLA). 
+
+[![Open In Colab][COLAB]](https://colab.research.google.com/github/salrowili/ArabicTransformer/blob/main/Examples/Text_Classification_with_ArabicTransformer_and_TPU_and_Keras_API.ipynb) 
+- Question Answering ( TyDi QA / Quran QA dataset) with ArabicTransformer. 
+
+[![Open In Colab][COLAB]](https://colab.research.google.com/github/salrowili/ArabicTransformer/blob/main/Examples/FineTuning_ArabicTransformers_on_TyDi_QA_and_Quran_QA_Dataset.ipynb) 
 # 
 ```bibtex
 @inproceedings{alrowili-shanker-2021-arabictransformer-efficient,
